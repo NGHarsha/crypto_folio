@@ -1,0 +1,13 @@
+.dropdown-menu {
+  background-color: black;
+}
+.dropdown-item {
+  color: rgb(230, 216, 216);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(161, 150, 150);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 250, 250);
+}

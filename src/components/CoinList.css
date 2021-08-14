@@ -1,0 +1,35 @@
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.coin-search {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-input {
+  /* padding-left: 16px; */
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(
+    -225deg,
+    #363536 0%,
+    #161616 48%,
+    #080808 100%
+  );
+
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
